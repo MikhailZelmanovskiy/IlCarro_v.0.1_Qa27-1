@@ -107,8 +107,8 @@ public Iterator<Object[]> dataFile() throws IOException {
 
     }
 
-    @Test
-    
+    @Test(enabled = false)
+
     public void loginTestJSExecutor() {
 
         app.user().openLoginForm();
