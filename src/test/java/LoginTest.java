@@ -96,7 +96,7 @@ public Iterator<Object[]> dataFile() throws IOException {
     public void loginTest() {
 
         app.user().openLoginForm();
-        app.user().fillLoginForm(new User().withEmail("marshgmail.com").withPassword("Marsh1234$"));
+        app.user().fillLoginForm(new User().withEmail("marsh@gmail.com").withPassword("Marsh1234$"));
         logger.info("Login with mail: " + "marsh@gmail.com" + "\nLogin with password:" + "Marsh1234$");
         app.user().clickLoginButton();
         app.user().pause(2000);
