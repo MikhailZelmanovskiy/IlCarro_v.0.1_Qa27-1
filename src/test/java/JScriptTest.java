@@ -10,6 +10,6 @@ public class JScriptTest extends TestBase{
         app.executor().scrollPage();
         app.executor().novigateTo();
         app.executor().alertMy();
-        app.executor().pause(10000);
+        app.executor().pause(11000);
     }
 }
