@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-09T10:34:29" hostname="LAPTOP-76TLGUQ3" time="7.062">
+  <properties/>
+  <testcase name="loginTest" classname="LoginTest" time="7.062"/>
+  <system-out><![CDATA[13:34:19 INFO  - Start method -->loginTest
+13:34:19 INFO  - With param--->[]
+13:34:19 INFO  - Start search element-->By.xpath: //a[text()=' Logout ']
+13:34:29 INFO  - Found ---> By.xpath: //a[text()=' Logout ']
+13:34:29 INFO  - Start search element-->By.xpath: //a[text()=' Log in ']
+13:34:29 INFO  - Found ---> By.xpath: //a[text()=' Log in ']
+13:34:29 INFO  - Start search element-->By.id: email
+13:34:29 INFO  - Found ---> By.id: email
+13:34:29 INFO  - Start search element-->By.id: password
+13:34:29 INFO  - Found ---> By.id: password
+13:34:29 INFO  - Login with mail: marsh@gmail.com
+Login with password:Marsh1234$
+13:34:29 INFO  - Start search element-->By.xpath: //button[@type='submit']
+13:34:29 INFO  - Found ---> By.xpath: //button[@type='submit']
+13:34:31 INFO  - Start search element-->By.xpath: //button[text()='Ok']
+13:34:32 INFO  - Found ---> By.xpath: //button[text()='Ok']
+13:34:36 INFO  - Start search element-->By.xpath: //a[text()=' Logout ']
+13:34:36 INFO  - Found ---> By.xpath: //a[text()=' Logout ']
+13:34:36 INFO  - Test passed
+13:34:36 INFO  - End of method --->loginTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
